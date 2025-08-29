@@ -120,7 +120,7 @@
 // export default Judgesboard;
 
 import { View, Text, ScrollView, Image } from "react-native";
-import React, { useState } from "react";
+import React, { useState }from "react";
 import SideMenu from "../components/sidemenu";
 import Bbcard from "../components/bbcard";
 import TopNav from "../components/topnav";
