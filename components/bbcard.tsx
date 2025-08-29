@@ -69,7 +69,7 @@ const ContestantCard: React.FC<CardProps> = ({
 
   return (
     <View className="bg-[#2b2b2b] backdrop-blur-3xl rounded-md p-4 m-2 w-[275px] h-96 shadow-md">
-      <Image source={image} className="w-full h-32 rounded-xl items-center" resizeMode="cover" />
+      <Image source={image} className="w-full h-32 rounded-xl items-center top-0" resizeMode="cover" />
       <Text className="text-white text-center font-semibold">{name}</Text>
       {/* Total Score and Rank */}
       <View className="flex-row justify-between items-center mt-2 mb-1">
@@ -90,7 +90,7 @@ const ContestantCard: React.FC<CardProps> = ({
         onChangeText={setScore}
       />
       <TouchableOpacity
-        className={`mt-2 py-2 rounded-xl ${isEditing ? "bg-green-500" : "bg-purple-500"}`}
+        className={`mb-8 mt-2 py-2 rounded-xl ${isEditing ? "bg-green-500" : "bg-purple-500"}`}
         onPress={() => {
           if (isEditing && score) {
             onSave(Number(score));
