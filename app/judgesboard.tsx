@@ -194,7 +194,7 @@ const Judgesboard = () => {
       <TopNav />
       <Pill />
 
-      <View className="flex-row flex-1 px-2 mt-20">
+      <View className="flex-row flex-1 px-2 mt-16">
         <View className="w-[20%]">
           <SideMenu
             criteriaList={criteriaList}

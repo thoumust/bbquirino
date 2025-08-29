@@ -21,5 +21,11 @@ export default function RootLayout() {
         headerShown: false,
       }}
     />
+    <Stack.Screen
+      name="tallyboard"
+      options={{
+        headerShown: false,
+      }}
+    />
   </Stack>
 }

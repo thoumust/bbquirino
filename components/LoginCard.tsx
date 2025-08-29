@@ -4,7 +4,7 @@ import { View, Text, TextInput, TouchableOpacity, Image } from "react-native";
 
 export default function JudgeLoginCard() {
   return (
-    <View className="bg-black/60 rounded-2xl p-6 w-[50%] max-w-md items-center mr-30">
+    <View className="bg-black/60 rounded-2xl p-6 w-[50%] max-w-md items-center mr-30 border border-white/10 shadow-lg shadow-white/5">
       {/* Logo */}
       <Image
         source={require("../assets/images/logo.png")} // change to your crown logo
